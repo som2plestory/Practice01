@@ -19,6 +19,8 @@ public class Ex20 {
 		int ten = cs.nextInt();
 		
 		System.out.println("동전의 총합은 " + (500*five_h + 100*one_h + 50*fifty + 10*ten));
+		
+		cs.close();
 	}
 
 }
